@@ -7,8 +7,8 @@ from textblob import TextBlob
 import joblib
 
 # Load model and vectorizer
-model = joblib.load( r"C:\Users\Tejas Pund\OneDrive\Desktop\Python\MyProjects\emotion_model.pkl" )
-vectorizer = joblib.load( r"C:\Users\Tejas Pund\OneDrive\Desktop\Python\MyProjects\tfidf_vectorizer.pkl")
+model = joblib.load("emotion_model.pkl" )
+vectorizer = joblib.load("tfidf_vectorizer.pkl")
 
 # Set Streamlit page config
 st.set_page_config(
